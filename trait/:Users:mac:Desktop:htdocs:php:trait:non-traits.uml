@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>/Users/mac/Desktop/htdocs/php/trait/non-traits</OriginalElement>
+  <nodes>
+    <node x="0.0" y="79.0">\Contentable</node>
+    <node x="147.16071428571428" y="79.0">\Html</node>
+    <node x="224.08928571428572" y="158.0">\Button</node>
+    <node x="130.08928571428572" y="158.0">\Image</node>
+    <node x="210.20833333333334" y="0.0">\Printable</node>
+    <node x="90.20833333333334" y="0.0">\Shareable</node>
+    <node x="44.75" y="158.0">\Div</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Div" target="\Html">
+      <point x="13.25" y="-14.5" />
+      <point x="84.5" y="133.0" />
+      <point x="157.82738095238093" y="133.0" />
+      <point x="-21.333333333333343" y="14.5" />
+    </edge>
+    <edge source="\Button" target="\Html">
+      <point x="0.0" y="-14.5" />
+      <point x="262.5892857142857" y="133.0" />
+      <point x="200.4940476190476" y="133.0" />
+      <point x="21.333333333333314" y="14.5" />
+    </edge>
+    <edge source="\Div" target="\Contentable">
+      <point x="-13.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\Image" target="\Html">
+      <point x="0.0" y="-14.5" />
+      <point x="167.08928571428572" y="133.0" />
+      <point x="179.16071428571428" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\Html" target="\Shareable">
+      <point x="-16.0" y="-14.5" />
+      <point x="163.16071428571428" y="54.0" />
+      <point x="140.20833333333334" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\Html" target="\Printable">
+      <point x="16.0" y="-14.5" />
+      <point x="195.16071428571428" y="54.0" />
+      <point x="256.70833333333337" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

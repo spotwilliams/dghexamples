@@ -21,41 +21,179 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="php" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tiempo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/tiempo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <marker date="1506911370000" expanded="true" signature="464:543" ph="INSERT INTO departments... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tiempo2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/tiempo2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding>
-                <marker date="1506911461000" expanded="true" signature="405:484" ph="INSERT INTO departments... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statement.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/statement.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <marker date="1506654196000" expanded="true" signature="59:177" ph="SELECT first... fruit" />
-                <marker date="1506654196000" expanded="true" signature="685:781" ph="SELECT name,... fruit" />
-              </folding>
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PHP//Users/mac/Desktop/htdocs/php/trait/non-traits" pinned="false" current-in-tab="false">
+        <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/non-traits">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>$PROJECT_DIR$/trait/non-traits</OriginalElement>
+              <nodes>
+                <node x="0.0" y="79.0">\Contentable</node>
+                <node x="147.16071428571428" y="79.0">\Html</node>
+                <node x="224.08928571428572" y="158.0">\Button</node>
+                <node x="130.08928571428572" y="158.0">\Image</node>
+                <node x="210.20833333333334" y="0.0">\Printable</node>
+                <node x="90.20833333333334" y="0.0">\Shareable</node>
+                <node x="44.75" y="158.0">\Div</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\Div" target="\Html">
+                  <point x="13.25" y="-14.5" />
+                  <point x="84.5" y="133.0" />
+                  <point x="157.82738095238093" y="133.0" />
+                  <point x="-21.333333333333343" y="14.5" />
+                </edge>
+                <edge source="\Button" target="\Html">
+                  <point x="0.0" y="-14.5" />
+                  <point x="262.5892857142857" y="133.0" />
+                  <point x="200.4940476190476" y="133.0" />
+                  <point x="21.333333333333314" y="14.5" />
+                </edge>
+                <edge source="\Div" target="\Contentable">
+                  <point x="-13.25" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Image" target="\Html">
+                  <point x="0.0" y="-14.5" />
+                  <point x="167.08928571428572" y="133.0" />
+                  <point x="179.16071428571428" y="133.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Html" target="\Shareable">
+                  <point x="-16.0" y="-14.5" />
+                  <point x="163.16071428571428" y="54.0" />
+                  <point x="140.20833333333334" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Html" target="\Printable">
+                  <point x="16.0" y="-14.5" />
+                  <point x="195.16071428571428" y="54.0" />
+                  <point x="256.70833333333337" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="-5.5" />
+              <SelectedNodes />
+              <Categories />
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PHP//Users/mac/Desktop/htdocs/php/trait/with-traits" pinned="false" current-in-tab="true">
+        <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/with-traits">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>$PROJECT_DIR$/trait/with-traits</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">\Contentable</node>
+                <node x="304.0" y="0.0">\Html</node>
+                <node x="278.25" y="79.0">\Button</node>
+                <node x="388.0" y="0.0">\PuedeCompartirse</node>
+                <node x="412.0" y="79.0">\Image</node>
+                <node x="135.00000000000003" y="-69.0">\PuedeImprimirse</node>
+                <node x="146.50000000000003" y="79.0">\Div</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\Div" target="\Html">
+                  <point x="17.666666666666657" y="-14.5" />
+                  <point x="190.66666666666669" y="59.0" />
+                  <point x="314.66666666666674" y="59.0" />
+                  <point x="-21.333333333333314" y="14.5" />
+                </edge>
+                <edge source="\Button" target="\PuedeImprimirse">
+                  <point x="-19.25" y="-14.5" />
+                  <point x="297.5" y="49.0" />
+                  <point x="247.00000000000003" y="49.0" />
+                  <point x="37.0" y="14.5" />
+                </edge>
+                <edge source="\Button" target="\Html">
+                  <point x="19.25" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Image" target="\PuedeCompartirse">
+                  <point x="18.5" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Div" target="\Contentable">
+                  <point x="-17.666666666666657" y="-14.5" />
+                  <point x="155.33333333333337" y="59.0" />
+                  <point x="58.0" y="59.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Image" target="\Html">
+                  <point x="-18.5" y="-14.5" />
+                  <point x="430.5" y="59.0" />
+                  <point x="357.33333333333337" y="59.0" />
+                  <point x="21.333333333333314" y="14.5" />
+                </edge>
+                <edge source="\Div" target="\PuedeImprimirse">
+                  <point x="0.0" y="-14.5" />
+                  <point x="-37.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="273.5" y="54.0" />
+              <SelectedNodes />
+              <Categories />
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/Button.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Div.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/Div.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Html.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/Html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,6 +216,33 @@
         <option value="$PROJECT_DIR$/db/metodos.php" />
         <option value="$PROJECT_DIR$/db/tiempo.php" />
         <option value="$PROJECT_DIR$/db/tiempo2.php" />
+        <option value="$PROJECT_DIR$/herencia/Fruta.php" />
+        <option value="$PROJECT_DIR$/namespaces/class/Usuario.php" />
+        <option value="$PROJECT_DIR$/namespaces/class/ejemplo.php" />
+        <option value="$PROJECT_DIR$/namespaces/Proyecto/Blog/ejemplo.php" />
+        <option value="$PROJECT_DIR$/namespaces/ejemplo.php" />
+        <option value="$PROJECT_DIR$/namespaces/Proyecto/Blog/Admin/ejemplo.php" />
+        <option value="$PROJECT_DIR$/trait/Printable.php" />
+        <option value="$PROJECT_DIR$/trait/Shareable.php" />
+        <option value="$PROJECT_DIR$/trait/autoload.php" />
+        <option value="$PROJECT_DIR$/trait/Dom.php" />
+        <option value="$PROJECT_DIR$/trait/Contentable.php" />
+        <option value="$PROJECT_DIR$/trait/Image.php" />
+        <option value="$PROJECT_DIR$/trait/Html.php" />
+        <option value="$PROJECT_DIR$/trait/Social.php" />
+        <option value="$PROJECT_DIR$/trait/Button.php" />
+        <option value="$PROJECT_DIR$/trait/Div.php" />
+        <option value="$PROJECT_DIR$/trait/non-traits/Image.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/PuedeImprimirse.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/Button.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/Div.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/Html.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/Image.php" />
+        <option value="$PROJECT_DIR$/trait/non-traits/autoload.php" />
+        <option value="$PROJECT_DIR$/trait/non-traits/index.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/autoload.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/index.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/PuedeCompartirse.php" />
       </list>
     </option>
   </component>
@@ -108,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,27 +296,68 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="trait" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trait" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="with-traits" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trait" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="non-traits" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trait/with-traits" />
+      <recent name="$PROJECT_DIR$/namespaces/Proyecto/Blog" />
+      <recent name="$PROJECT_DIR$/namespaces/Proyecto/Blog/Admin" />
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trait/with-traits" />
+      <recent name="$PROJECT_DIR$/trait/non-traits" />
       <recent name="$PROJECT_DIR$/db" />
       <recent name="$PROJECT_DIR$/db/sources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,6 +372,75 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -177,17 +453,20 @@
       <updated>1506652706867</updated>
       <workItem from="1506652708141" duration="1621000" />
       <workItem from="1506909239117" duration="1903000" />
+      <workItem from="1506964081466" duration="80000" />
+      <workItem from="1507864298932" duration="295000" />
+      <workItem from="1508294385291" duration="2790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3524000" />
+    <option name="totallyTimeSpent" value="6689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25241935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2629032" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -196,7 +475,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5109589" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26370966" sideWeight="0.50547945" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -217,13 +496,111 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db/tiempo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <marker date="1506911370000" expanded="true" signature="464:543" ph="INSERT INTO departments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/tiempo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1506911461000" expanded="true" signature="405:484" ph="INSERT INTO departments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/statement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1506654196000" expanded="true" signature="59:177" ph="SELECT first... fruit" />
+            <marker date="1506654196000" expanded="true" signature="685:781" ph="SELECT name,... fruit" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/herencia/Fruta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/tiempo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <marker date="1506911370000" expanded="true" signature="464:543" ph="INSERT INTO departments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/statement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1506654196000" expanded="true" signature="59:177" ph="SELECT first... fruit" />
+            <marker date="1506654196000" expanded="true" signature="685:781" ph="SELECT name,... fruit" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/tiempo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1506911461000" expanded="true" signature="405:484" ph="INSERT INTO departments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/tiempo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506911370000" expanded="true" signature="464:543" ph="INSERT INTO departments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/tiempo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1506911461000" expanded="true" signature="405:484" ph="INSERT INTO departments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/statement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1506654196000" expanded="true" signature="59:177" ph="SELECT first... fruit" />
+            <marker date="1506654196000" expanded="true" signature="685:781" ph="SELECT name,... fruit" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/query_all.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <marker date="1506653020000" expanded="true" signature="173:196" ph="SELECT * FRO... employees" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -231,9 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <marker date="1506653204000" expanded="true" signature="173:198" ph="SELECT * FRO... departments" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -241,12 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <marker date="1506653860000" expanded="true" signature="213:236" ph="Select * fro... employees" />
-            <marker date="1506653860000" expanded="true" signature="213:248" ph="SELECT * FRO... employees" />
-            <marker date="1506653860000" expanded="true" signature="213:250" ph="SELECT * FRO... employees" />
-            <marker date="1506653860000" expanded="true" signature="213:287" ph="SELECT * FRO... employees" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -265,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <marker date="1506653204000" expanded="true" signature="173:198" ph="SELECT * FRO... departments" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -289,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <marker date="1506653204000" expanded="true" signature="173:198" ph="SELECT * FRO... departments" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -299,12 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <marker date="1506653860000" expanded="true" signature="213:236" ph="Select * fro... employees" />
-            <marker date="1506653860000" expanded="true" signature="213:248" ph="SELECT * FRO... employees" />
-            <marker date="1506653860000" expanded="true" signature="213:250" ph="SELECT * FRO... employees" />
-            <marker date="1506653860000" expanded="true" signature="213:287" ph="SELECT * FRO... employees" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -312,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <marker date="1506653020000" expanded="true" signature="173:196" ph="SELECT * FRO... employees" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -322,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <marker date="1506910252000" expanded="true" signature="247:279" ph="INSERT INTO departments... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,6 +706,333 @@
           <folding>
             <marker date="1506911461000" expanded="true" signature="405:484" ph="INSERT INTO departments... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/herencia/Fruta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namespaces/Proyecto/Blog/Admin/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namespaces/Proyecto/Blog/Admin/ejemplo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namespaces/ejemplo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namespaces/Proyecto/Blog/ejemplo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Printable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Shareable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Social.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/trait</OriginalElement>
+          <nodes>
+            <node x="" y="">\Social</node>
+            <node x="" y="">\Contentable</node>
+            <node x="" y="">\Html</node>
+            <node x="" y="">\Image</node>
+            <node x="" y="">\Button</node>
+            <node x="" y="">\Printable</node>
+            <node x="" y="">\Shareable</node>
+            <node x="" y="">\Div</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="133.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/PuedeImprimirse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/:Users:mac:Desktop:htdocs:php:trait:non-traits.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/trait/non-traits</OriginalElement>
+          <nodes>
+            <node x="" y="">\Contentable</node>
+            <node x="" y="">\Html</node>
+            <node x="" y="">\Button</node>
+            <node x="" y="">\Image</node>
+            <node x="" y="">\Printable</node>
+            <node x="" y="">\Shareable</node>
+            <node x="" y="">\Div</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="94.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/non-traits/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/non-traits/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Contentable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Div.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/non-traits/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/PuedeCompartirse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/non-traits">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/trait/non-traits</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">\Contentable</node>
+            <node x="147.16071428571428" y="79.0">\Html</node>
+            <node x="224.08928571428572" y="158.0">\Button</node>
+            <node x="130.08928571428572" y="158.0">\Image</node>
+            <node x="210.20833333333334" y="0.0">\Printable</node>
+            <node x="90.20833333333334" y="0.0">\Shareable</node>
+            <node x="44.75" y="158.0">\Div</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\Div" target="\Html">
+              <point x="13.25" y="-14.5" />
+              <point x="84.5" y="133.0" />
+              <point x="157.82738095238093" y="133.0" />
+              <point x="-21.333333333333343" y="14.5" />
+            </edge>
+            <edge source="\Button" target="\Html">
+              <point x="0.0" y="-14.5" />
+              <point x="262.5892857142857" y="133.0" />
+              <point x="200.4940476190476" y="133.0" />
+              <point x="21.333333333333314" y="14.5" />
+            </edge>
+            <edge source="\Div" target="\Contentable">
+              <point x="-13.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Image" target="\Html">
+              <point x="0.0" y="-14.5" />
+              <point x="167.08928571428572" y="133.0" />
+              <point x="179.16071428571428" y="133.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Html" target="\Shareable">
+              <point x="-16.0" y="-14.5" />
+              <point x="163.16071428571428" y="54.0" />
+              <point x="140.20833333333334" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Html" target="\Printable">
+              <point x="16.0" y="-14.5" />
+              <point x="195.16071428571428" y="54.0" />
+              <point x="256.70833333333337" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="-5.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/with-traits">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/trait/with-traits</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\Contentable</node>
+            <node x="304.0" y="0.0">\Html</node>
+            <node x="278.25" y="79.0">\Button</node>
+            <node x="388.0" y="0.0">\PuedeCompartirse</node>
+            <node x="412.0" y="79.0">\Image</node>
+            <node x="135.00000000000003" y="-69.0">\PuedeImprimirse</node>
+            <node x="146.50000000000003" y="79.0">\Div</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\Div" target="\Html">
+              <point x="17.666666666666657" y="-14.5" />
+              <point x="190.66666666666669" y="59.0" />
+              <point x="314.66666666666674" y="59.0" />
+              <point x="-21.333333333333314" y="14.5" />
+            </edge>
+            <edge source="\Button" target="\PuedeImprimirse">
+              <point x="-19.25" y="-14.5" />
+              <point x="297.5" y="49.0" />
+              <point x="247.00000000000003" y="49.0" />
+              <point x="37.0" y="14.5" />
+            </edge>
+            <edge source="\Button" target="\Html">
+              <point x="19.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Image" target="\PuedeCompartirse">
+              <point x="18.5" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Div" target="\Contentable">
+              <point x="-17.666666666666657" y="-14.5" />
+              <point x="155.33333333333337" y="59.0" />
+              <point x="58.0" y="59.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Image" target="\Html">
+              <point x="-18.5" y="-14.5" />
+              <point x="430.5" y="59.0" />
+              <point x="357.33333333333337" y="59.0" />
+              <point x="21.333333333333314" y="14.5" />
+            </edge>
+            <edge source="\Div" target="\PuedeImprimirse">
+              <point x="0.0" y="-14.5" />
+              <point x="-37.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="273.5" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
