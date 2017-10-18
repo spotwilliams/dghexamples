@@ -21,31 +21,22 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="php" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trait/non-traits/autoload.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="e#7#44#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trait/non-traits/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHP//Users/mac/Desktop/htdocs/php/trait/non-traits" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PHP//Users/mac/Desktop/htdocs/php/trait/non-traits" pinned="false" current-in-tab="false">
         <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/non-traits">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -97,10 +88,112 @@
                   <point x="0.0" y="14.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="93.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="-5.5" />
               <SelectedNodes />
               <Categories />
               <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PHP//Users/mac/Desktop/htdocs/php/trait/with-traits" pinned="false" current-in-tab="true">
+        <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/with-traits">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>$PROJECT_DIR$/trait/with-traits</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">\Contentable</node>
+                <node x="304.0" y="0.0">\Html</node>
+                <node x="278.25" y="79.0">\Button</node>
+                <node x="388.0" y="0.0">\PuedeCompartirse</node>
+                <node x="412.0" y="79.0">\Image</node>
+                <node x="135.00000000000003" y="-69.0">\PuedeImprimirse</node>
+                <node x="146.50000000000003" y="79.0">\Div</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\Div" target="\Html">
+                  <point x="17.666666666666657" y="-14.5" />
+                  <point x="190.66666666666669" y="59.0" />
+                  <point x="314.66666666666674" y="59.0" />
+                  <point x="-21.333333333333314" y="14.5" />
+                </edge>
+                <edge source="\Button" target="\PuedeImprimirse">
+                  <point x="-19.25" y="-14.5" />
+                  <point x="297.5" y="49.0" />
+                  <point x="247.00000000000003" y="49.0" />
+                  <point x="37.0" y="14.5" />
+                </edge>
+                <edge source="\Button" target="\Html">
+                  <point x="19.25" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Image" target="\PuedeCompartirse">
+                  <point x="18.5" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Div" target="\Contentable">
+                  <point x="-17.666666666666657" y="-14.5" />
+                  <point x="155.33333333333337" y="59.0" />
+                  <point x="58.0" y="59.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="\Image" target="\Html">
+                  <point x="-18.5" y="-14.5" />
+                  <point x="430.5" y="59.0" />
+                  <point x="357.33333333333337" y="59.0" />
+                  <point x="21.333333333333314" y="14.5" />
+                </edge>
+                <edge source="\Div" target="\PuedeImprimirse">
+                  <point x="0.0" y="-14.5" />
+                  <point x="-37.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="273.5" y="54.0" />
+              <SelectedNodes />
+              <Categories />
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/Button.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Div.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/Div.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Html.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/Html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trait/with-traits/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,15 +233,16 @@
         <option value="$PROJECT_DIR$/trait/Button.php" />
         <option value="$PROJECT_DIR$/trait/Div.php" />
         <option value="$PROJECT_DIR$/trait/non-traits/Image.php" />
-        <option value="$PROJECT_DIR$/trait/with-traits/PuedeCompartirse.php" />
         <option value="$PROJECT_DIR$/trait/with-traits/PuedeImprimirse.php" />
         <option value="$PROJECT_DIR$/trait/with-traits/Button.php" />
         <option value="$PROJECT_DIR$/trait/with-traits/Div.php" />
         <option value="$PROJECT_DIR$/trait/with-traits/Html.php" />
         <option value="$PROJECT_DIR$/trait/with-traits/Image.php" />
-        <option value="$PROJECT_DIR$/trait/with-traits/autoload.php" />
         <option value="$PROJECT_DIR$/trait/non-traits/autoload.php" />
         <option value="$PROJECT_DIR$/trait/non-traits/index.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/autoload.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/index.php" />
+        <option value="$PROJECT_DIR$/trait/with-traits/PuedeCompartirse.php" />
       </list>
     </option>
   </component>
@@ -189,6 +283,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trait" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,18 +455,18 @@
       <workItem from="1506909239117" duration="1903000" />
       <workItem from="1506964081466" duration="80000" />
       <workItem from="1507864298932" duration="295000" />
-      <workItem from="1508294385291" duration="2245000" />
+      <workItem from="1508294385291" duration="2790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6144000" />
+    <option name="totallyTimeSpent" value="6689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26451612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2629032" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -367,7 +475,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5109589" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26370966" sideWeight="0.50547945" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -665,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/Contentable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -697,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/Html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trait/with-traits/PuedeImprimirse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -713,58 +805,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/Button.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/Div.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trait/with-traits/PuedeCompartirse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trait/non-traits/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/trait/:Users:mac:Desktop:htdocs:php:trait:non-traits.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/trait/non-traits</OriginalElement>
+          <nodes>
+            <node x="" y="">\Contentable</node>
+            <node x="" y="">\Html</node>
+            <node x="" y="">\Button</node>
+            <node x="" y="">\Image</node>
+            <node x="" y="">\Printable</node>
+            <node x="" y="">\Shareable</node>
+            <node x="" y="">\Div</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="94.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trait/non-traits/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#7#44#0#PHP" expanded="true" />
           </folding>
@@ -773,8 +840,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trait/non-traits/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Contentable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Div.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/non-traits/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/PuedeCompartirse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trait/with-traits/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -830,7 +969,67 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="93.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="-5.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP//Users/mac/Desktop/htdocs/php/trait/with-traits">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/trait/with-traits</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">\Contentable</node>
+            <node x="304.0" y="0.0">\Html</node>
+            <node x="278.25" y="79.0">\Button</node>
+            <node x="388.0" y="0.0">\PuedeCompartirse</node>
+            <node x="412.0" y="79.0">\Image</node>
+            <node x="135.00000000000003" y="-69.0">\PuedeImprimirse</node>
+            <node x="146.50000000000003" y="79.0">\Div</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\Div" target="\Html">
+              <point x="17.666666666666657" y="-14.5" />
+              <point x="190.66666666666669" y="59.0" />
+              <point x="314.66666666666674" y="59.0" />
+              <point x="-21.333333333333314" y="14.5" />
+            </edge>
+            <edge source="\Button" target="\PuedeImprimirse">
+              <point x="-19.25" y="-14.5" />
+              <point x="297.5" y="49.0" />
+              <point x="247.00000000000003" y="49.0" />
+              <point x="37.0" y="14.5" />
+            </edge>
+            <edge source="\Button" target="\Html">
+              <point x="19.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Image" target="\PuedeCompartirse">
+              <point x="18.5" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Div" target="\Contentable">
+              <point x="-17.666666666666657" y="-14.5" />
+              <point x="155.33333333333337" y="59.0" />
+              <point x="58.0" y="59.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="\Image" target="\Html">
+              <point x="-18.5" y="-14.5" />
+              <point x="430.5" y="59.0" />
+              <point x="357.33333333333337" y="59.0" />
+              <point x="21.333333333333314" y="14.5" />
+            </edge>
+            <edge source="\Div" target="\PuedeImprimirse">
+              <point x="0.0" y="-14.5" />
+              <point x="-37.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="273.5" y="54.0" />
           <SelectedNodes />
           <Categories />
           <VISIBILITY>private</VISIBILITY>
