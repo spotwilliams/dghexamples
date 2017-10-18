@@ -1,5 +1,6 @@
 <?php
-
+print_r($_SERVER);
+die;
 if($_POST){
 
   //1) me conecto
