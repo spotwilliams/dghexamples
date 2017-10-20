@@ -1,20 +1,49 @@
 <?php
 
-abstract class Servicio {
+class Cliente {
+
+  protected $cuenta;
+  protected $nombre;
 
 
-  private  function verificarHora() {
-    echo 'La hora es ....';
+
+  public function __construct($nombre, Cuenta $cuenta)
+  {
+    $this->cuenta =  $cuenta;
   }
 
-//  private abstract function cargarCombustible(int $cantidad) ;
 
-  protected static function encender()
+  public function getCuenta()
   {
-      echo 'Maquina ON';
+    return $this->cuenta;
   }
 
 }
+
+
+$cliente = new Cliente('Jhon',  new Cuenta('197231827112', new Banco('Comafi')));
+
+$cliente->getCuenta()
+        ->getBanco()
+        ->getDireccion();
+
+
+ class Cuenta {
+
+  public function __construct($cbu, Banco $banco)
+  {
+    $this->cuenta =  $cuenta;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 

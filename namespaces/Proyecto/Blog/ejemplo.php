@@ -1,6 +1,6 @@
 <?php
 
-namespace Proyecto\Blog;
+namespace Blog\Usuarios;
 
 include './Admin/Usuario.php';
 

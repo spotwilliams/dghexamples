@@ -1,16 +1,16 @@
 <?php
+namespace Tools\Dynamic;
 
-/**
- * Created by PhpStorm.
- * User: worker
- * Date: 10/18/17
- * Time: 00:14
- */
 trait PuedeCompartirse
 {
-    public function shareMe()
-    {
-        echo 'Sending to Facebook...';
-    }
-    
+  private function shareMe()
+  {
+    echo $this->name;
+      echo 'Sending to Facebook...';
+  }
+
+  public function shareMe2()
+  {
+      echo 'Sending to Twitter...';
+  }
 }

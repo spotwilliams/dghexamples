@@ -1,12 +1,11 @@
 <?php
 
-namespace Blog\Usuarios\Admin;
+namespace Proyecto\Blog;
 
 class Usuario
 {
     private $nombre;
     private $pass;
-    private $cuenta;
 
     public function __construct($nombre, $pass)
     {
@@ -14,13 +13,10 @@ class Usuario
         $this->pass   = $pass;
     }
 
+
     public function getNombre()
     {
         return $this->nombre;
-    }
-
-    public function crearCuenta(){
-      $this->cuenta = new \OtroProyecto\Cuenta();
     }
 }
 

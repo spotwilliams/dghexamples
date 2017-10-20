@@ -7,21 +7,26 @@ class Image extends Html
     {
         return '<img>';
     }
-    
+
     public function myClosingTag()
     {
         return '</img>';
     }
-    
+
     public function shareMe()
     {
         echo 'Sending to Facebook...';
     }
-    
+
     public function printMe()
     {
-        echo $this->myOpeningTag() . $this->myClosingTag();
+        // No hago nadda
     }
-    
-    
+
+
 }
+
+
+$image = new Image();
+
+$image->printMe();
