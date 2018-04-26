@@ -2,7 +2,6 @@
 
 function esRequerido($data)
 {
-    
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
