@@ -1,0 +1,3 @@
+{"pais":"Argentina","cuidades":["Bs As","Rosario","CABA"]}
+{"pais":"Brasil","ciudades":["Brasilia","Sao Paulo"]}
+{"pais":"Venezuela","ciudades":["Caracas","Margarita"]}
